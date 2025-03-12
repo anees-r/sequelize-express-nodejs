@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-express-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Rest APIs with Express, Sequelize and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anees-r/sequelize-express-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "anees-r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anees-r/sequelize-express-nodejs/issues"
+  },
+  "homepage": "https://github.com/anees-r/sequelize-express-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "sequelize": "^6.37.6"
+  }
+}
