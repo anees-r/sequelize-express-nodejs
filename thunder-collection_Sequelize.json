@@ -1,0 +1,134 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Sequelize",
+    "collectionId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+    "dateExported": "2025-03-12T10:31:55.210Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ee12054d-9f56-4f84-8ec6-ecab6cb82765",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Create New",
+            "url": "http://localhost:8080/api/tutorials",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-03-12T09:56:11.580Z",
+            "modified": "2025-03-12T10:29:55.279Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"New Tutorial 2\",\n  \"description\":\"Details about new tutorial 1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fa5d929a-1e77-472f-ac83-60b4f9e672bf",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Get All",
+            "url": "http://localhost:8080/api/tutorials",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-03-12T10:08:28.194Z",
+            "modified": "2025-03-12T10:08:39.716Z",
+            "headers": []
+        },
+        {
+            "_id": "2ef4efac-17ae-4634-9d95-be7e0b704a49",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Get One by ID",
+            "url": "http://localhost:8080/api/tutorials/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-12T10:08:52.800Z",
+            "modified": "2025-03-12T10:09:21.188Z",
+            "headers": []
+        },
+        {
+            "_id": "80d6e481-64d4-48c3-a6c1-d69dbbcce1ae",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Update by ID",
+            "url": "http://localhost:8080/api/tutorials/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-03-12T10:09:41.746Z",
+            "modified": "2025-03-12T10:10:06.804Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"published\":true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ccd1d0bc-4399-49bd-93d8-a4cf98a31b7d",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Get All where Title",
+            "url": "http://localhost:8080/api/tutorials?title=2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-03-12T10:11:31.380Z",
+            "modified": "2025-03-12T10:21:50.742Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "title",
+                    "value": "2",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "1aec74b6-a95f-4e1f-a92c-1a2dd286c921",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Get All Published",
+            "url": "http://localhost:8080/api/tutorials/published",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-03-12T10:12:25.245Z",
+            "modified": "2025-03-12T10:12:32.297Z",
+            "headers": []
+        },
+        {
+            "_id": "b589c452-f74f-4c2a-bf38-17b05cf28002",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Delete One by ID",
+            "url": "http://localhost:8080/api/tutorials/2",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2025-03-12T10:13:03.134Z",
+            "modified": "2025-03-12T10:13:10.210Z",
+            "headers": []
+        },
+        {
+            "_id": "c282eb37-8a87-452a-90ef-781cbb83adb8",
+            "colId": "ce444f28-d1c1-4c0a-9803-cc4112065252",
+            "containerId": "",
+            "name": "Delete All",
+            "url": "http://localhost:8080/api/tutorials",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2025-03-12T10:13:33.059Z",
+            "modified": "2025-03-12T10:13:47.943Z",
+            "headers": []
+        }
+    ],
+    "ref": "ht0JJbalqtU-YTivvxr_g9BJV6hK7VO_YrC9URaUnAWJpGSwAzfHiftNB5eZEBP8KQu5cOzZyQ-8DLUDZzGKwA"
+}
