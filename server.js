@@ -6,7 +6,7 @@ const app = express();
 
 // setting the origin as our frontend or request origin
 var corsOptions={
-    origin: "http://localhost:8081"
+    origin: "http://localhost:3000"
 };
 
 
